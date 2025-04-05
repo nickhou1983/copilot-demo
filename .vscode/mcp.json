@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "demo-sqlite": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": [
+                "mcp-server-sqlite",
+                "--db-path",
+                "/Users/houqifeng/copilot-demo/test.db"
+            ]
+        }
+    }
+}
