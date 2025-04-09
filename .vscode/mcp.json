@@ -8,6 +8,17 @@
                 "--db-path",
                 "/Users/houqifeng/copilot-demo/test.db"
             ]
+        },
+        "mcp-github": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-github"
+            ],
+            "env": {
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+            }
         }
     }
 }
